@@ -1,4 +1,5 @@
 body {
+    font-family: 'Caveat', cursive;
     background-color: paleturquoise;
 }
 
@@ -67,3 +68,19 @@ body {
     animation: spin .5s linear infinite;
   }
    */
+
+   #bio {
+    text-align: center;
+    font-size: 52px;
+    background: -webkit-linear-gradient(#650b81, #e946c1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   }
+
+   .biobio {
+       text-align: center;
+       font-size: 22px;
+       background: -webkit-linear-gradient(#e946c1, #9d4ee7);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+   }
