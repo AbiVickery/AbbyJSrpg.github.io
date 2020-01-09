@@ -30,6 +30,8 @@ Backstory for the fly:
 
 Must be at least 10 scenarioes!!!
 
+House, food, humans, animals, objects...(elements for the story)
+
 Scenario #1
     .
 
