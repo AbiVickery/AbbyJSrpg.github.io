@@ -42,7 +42,7 @@ Scenario #1
     ])
 
 Scenario #2
-    .
+    You continue flying around, laughing about your previous adventure with that human, the look on their face after what you had done. You wernt really paying attention to where you were going and got sucked into a vaccum,
 
 Scenario #3
     .
@@ -54,7 +54,13 @@ Scenario #5
     .
 
 Scenario #6
-    .
+    You're now in a building that has lots of people in dress clothes. Theres a stage with someone on it that looks nervous, like they are about to give a big speech. They have a microphone sitting in a microphone stand. You suddenly have an idea. Do you {A. Go through with the idea? or B. Ignore the idea knowing you could be killed and continue exploring the building?}
+    (if you chose A:[
+        You decide to go through with your idea. First you sneak over to the mic, making sure its plugged in (which it is of course). Then you land on the microphone and make the most annoying buzzing noises ever as loud as you can. The whole room is in an uproar as they think the noise is caused by someone in the back messing with the sound systems. You just sit there laughing while buzzing until someone sees you on the mic and then- SPLAT! You have been squished! But on the plus side, the person that smushed you didn't know that you were radioactive so now they have radiation poisoning. Poor them. POOR YOU! Oh well, thats life. THE END!
+    ]
+    if you chose B:[
+        You continue on with your adventure, exploring the building.
+    ])
 
 Scenario #7
     .
