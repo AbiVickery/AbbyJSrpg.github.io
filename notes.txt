@@ -38,7 +38,7 @@ Scenario #1
         You zoom into the person's mouth, buzzing around in the dark cave. Its all wet and smells bad, ideal for you to live in if you wanted to. As your floating around in the mouth, the person finishes yawning and closes their mouth. Only a few seconds after closing their mouth do they realize what has happened and immedeatly open it back up and start coughing and wheezing. You take this chance to escape! That was fun!
     ]
     if you chose B:[
-        You think about it and you dont really want to die, so you just ignore them and continue on your way.
+        You decide to land on their nose while their eyes are closed. What you didn't know was that they had a fly swatter in their hands, but that didnt stop you. They took the fly swatter and tried to get you, but you are to fast and quick on your feet, so instead of getting you, they end up hitting themselves in the face, leaving a red mark especially around the nose.
     ])
 
 Scenario #2
