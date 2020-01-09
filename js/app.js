@@ -33,4 +33,4 @@ function scenario1() {
         console.log('answer 2/2');
     }
 }
-scenario1();
+// scenario1();
