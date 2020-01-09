@@ -62,3 +62,30 @@ Scenario #9
 Scenario #10
     .
 
+
+code from one of my other JavaScript games to use as reference...
+
+
+function scenario1() {
+    alert('You are sitting on a hill and a bird flying in the air sees you.')
+    ans1 = prompt('Do you: {A. Do nothing} or {B. Run/Roll away}?')
+    // takes answers
+    if (ans1 == [
+        'a',
+        'A'
+    ]) {
+        // display S1a1
+        alert('The bird sees you as just another ordinary rock (cause birds arent always all that bright) and leaves you alone.');
+        console.log('answer 1/2');
+    } else {
+        // display S1a2
+        alert('A light breeze blows over you and you start rolling down the long hill. The bird takes notice and flies after you. Once it catches up to you, it then swoops down and grabs you, carrying you off into the sunset, never to be seen again. Such a shame, you were a nice rock too.');
+        console.log('answer 2/2', 'If you keep getting this answer, let me know about it because it could be a bug.');
+    }
+    // } else {
+    //     // display concern
+    //     alert('You know, I put a lot of hard work into this game, the least you could do is answer correctly!');
+    //     console.log('be an jerk');
+    // }
+}
+scenario1();
