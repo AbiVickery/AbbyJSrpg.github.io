@@ -39,7 +39,7 @@ function scenario1() {
 }
 // scenario1();
 function scenario2() {
-    alert('.');
+    alert('You continue flying around, laughing about your previous adventure with that human, the look on their face after what you had done. You wer\'nt really paying attention to where you were going and got sucked into a vaccum cleaner.');
     ans2 = prompt('.');
     // takes answers
     if (ans2 == [
@@ -61,3 +61,42 @@ function scenario2() {
     }
 }
 // scenario2();
+
+function scenario3() {
+    // do stuff
+}
+// scenario3();
+
+function scenario4() {
+    // do stuff
+}
+// scenario4();
+
+function scenario5() {
+    // do stuff
+}
+// scenario5();
+
+function scenario6() {
+    alert('You\'re now in a building that has lots of people in dress clothes. There\'s a stage with someone on it that looks nervous, like they are about to give a big speech. They have a microphone sitting on a stand. You suddenly have an idea. Do you-');
+    ans6 = prompt('A. Go through with the idea? or B. Ignore the idea knowing you could be killed and continue exploring the building?');
+    // takes answers
+    if (ans6 == [
+        'a',
+        'A',
+        '1'
+    ]) {
+        // display story for answer 1 of scenario 6
+        message('You decide to go through with your idea. First you sneak over to the mic, making sure its plugged in (which it is of course). Then you land on the microphone and make the most annoying buzzing noises ever as loud as you can. The whole room is in an uproar as they think the noise is cause by someone in the back messing with the sound systems. You just sit there laughing while buzzing until someone sees you on the mic and then- SPLAT! You have been squished! But on the plus side, the person that smushed you didn\'t know that you were radioactive so now they have radiation poisoning. Poor them. POOR YOU! Oh well, that\'s life. THE END!');
+        console.log('answer 1/2');
+    } else if (ans6 == [
+        'b',
+        'B',
+        '2'
+    ]) {
+        // display story for answer 2 of scenario 6
+        message('You continue on with your adventure, exploring the building.');
+        console.log('answer 2/2');
+    }
+}
+// scenario6();
