@@ -84,3 +84,9 @@ body {
        -webkit-background-clip: text;
        -webkit-text-fill-color: transparent;
    }
+
+   #per {
+     position: center;
+     border-radius: 15%;
+     /* border-style: #111111; */
+   }
