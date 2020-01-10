@@ -101,8 +101,101 @@ function scenario6() {
 }
 // scenario6();
 
-function myFunction() {
-    document.getElementById("demo").innerHTML = "test1 of js to text";
-  }
+function scenario7() {
+    alert('.');
+    ans7 = prompt('.');
+    // takes answers
+    if (ans7 == [
+        'a',
+        'A',
+        '1'
+    ]) {
+        // display story for answer 1 of scenario 7
+        message('.');
+        console.log('answer 1/2');
+    } else if (ans7 == [
+        'b',
+        'B',
+        '2'
+    ]) {
+        // display story for answer 2 of scenario 7
+        message('.');
+        console.log('answer 2/2');
+    }
+}
+// scenario7();
+function scenario8() {
+    alert('.');
+    ans8 = prompt('.');
+    // takes answers
+    if (ans8 == [
+        'a',
+        'A',
+        '1'
+    ]) {
+        // display story for answer 1 of scenario 8
+        message('.');
+        console.log('answer 1/2');
+    } else if (ans8 == [
+        'b',
+        'B',
+        '2'
+    ]) {
+        // display story for answer 2 of scenario 8
+        message('.');
+        console.log('answer 2/2');
+    }
+}
+// scenario8();
+function scenario9() {
+    alert('.');
+    ans9 = prompt('.');
+    // takes answers
+    if (ans9 == [
+        'a',
+        'A',
+        '1'
+    ]) {
+        // display story for answer 1 of scenario 9
+        message('.');
+        console.log('answer 1/2');
+    } else if (ans9 == [
+        'b',
+        'B',
+        '2'
+    ]) {
+        // display story for answer 2 of scenario 9
+        message('.');
+        console.log('answer 2/2');
+    }
+}
+// scenario9();
+function scenario10() {
+    alert('.');
+    ans10 = prompt('.');
+    // takes answers
+    if (ans10 = [
+        'a',
+        'A',
+        '1'
+    ]) {
+        // display story for answer 1 of scenario 10
+        message('.');
+        console.log('answer 1/2');
+    } else if (ans10 == [
+        'b',
+        'B',
+        '2'
+    ]) {
+        // display story for answer 2 of scenario 10
+        message('.');
+        console.log('answer 2/2');
+    }
+}
+// scenario10();
+
+// function myFunction() {
+//     document.getElementById("demo").innerHTML = "test1 of js to text";
+//   }
   
-  myFunction();
+//   myFunction();
