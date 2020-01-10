@@ -205,8 +205,8 @@ function scenario8() {
 }
 // scenario8();
 function scenario9() {
-    alert('.');
-    ans9 = prompt('.');
+    alert('YOu are flying around a laboratory and you spot a strange device on the table. Normally when you see devices like this, you ignore them but this one is tiny, small enough for you to operate. You look at what different controls it has and there are 2 buttons. One is blue with a circle shape. The other is yellow with a square shape. On the back of the device is a warning not to use or there will be severe consequences. Being the tiny jerk you are, you ignore the warning and decide to use the device just to be funny. Which button do you press? Do you press-');
+    ans9 = prompt('A. The blue circle button? or B. The yellow square button?');
     // takes answers
     if (ans9 == [
         'a',
@@ -214,7 +214,7 @@ function scenario9() {
         '1'
     ]) {
         // display story for answer 1 of scenario 9
-        message('.');
+        alert('At first, nothing happens. But then you hear a strange noise and suddenly there is a massive black hole forming in the room out of thin air. It swallows the entire earth and everything and everyone dies. THE END!');
         console.log('answer 1/2');
     } else if (ans9 == [
         'b',
@@ -222,7 +222,7 @@ function scenario9() {
         '2'
     ]) {
         // display story for answer 2 of scenario 9
-        message('.');
+        alert('You push the yellow button and suddenly it starts raining inside the lab. Apparently you didn\'t notice you were sitting under a shower head that has been attached to the ceiling. The liquid is a sort of yellow color. It\'s lemonade! YUM! While you sit there enjoying the lemonade, you wonder who made this device and why. You are happy with the lemonade but now you go to explore the rest of the lab.');
         console.log('answer 2/2');
     }
 }
