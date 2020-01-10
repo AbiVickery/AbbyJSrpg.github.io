@@ -100,3 +100,9 @@ function scenario6() {
     }
 }
 // scenario6();
+
+function myFunction() {
+    document.getElementById("demo").innerHTML = "test1 of js to text";
+  }
+  
+  myFunction();
