@@ -42,7 +42,13 @@ Scenario #1
     ])
 
 Scenario #2
-    You continue flying around, laughing about your previous adventure with that human, the look on their face after what you had done. You wernt really paying attention to where you were going and got sucked into a vaccum,
+    You continue flying around, laughing about your previous adventure with that human, the look on their face after what you had done. You wernt really paying attention to where you were going and got sucked into a vaccum cleaner. You are now stuck inside the vaccum, trying to think of what to do next. You have 2 choices. You can- {A. Wait until the vaccum gets emptied and then escape. or B. fly into the mechanics and break the vaccum down.}
+    {if you chose A:[
+        You wait for the vaccum to finish and eventually turn off. Once it does turn off, you make for the exit and fly away from the machine. Thank goodness you didnt try anything drastic, who knows how that would have ended...
+    ]
+    if you chose B:[
+        You go to the inner mechanics of the vaccum and clog it up with debris that was stuck to your legs. The whole vaccum starts making bad noises and it stops. You take this chance to escape the vaccum cleaner and fly away.
+    ]}
 
 Scenario #3
     .
