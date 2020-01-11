@@ -72,7 +72,7 @@ function scenario3() {
         '1'
     ]) {
         // display story for answer 1 of scenario 3
-        message('.');
+        alert('.');
         console.log('answer 1/2');
     } else if (ans3 == [
         'b',
@@ -80,7 +80,7 @@ function scenario3() {
         '2'
     ]) {
         // display story for answer 2 of scenario 3
-        message('.');
+        alert('.');
         console.log('answer 2/2');
     }
 }
@@ -96,7 +96,7 @@ function scenario4() {
         '1'
     ]) {
         // display story for answer 1 of scenario 4
-        message('.');
+        alert('.');
         console.log('answer 1/2');
     } else if (ans4 == [
         'b',
@@ -104,7 +104,7 @@ function scenario4() {
         '2'
     ]) {
         // display story for answer 2 of scenario 4
-        message('.');
+        alert('.');
         console.log('answer 2/2');
     }
 }
@@ -120,7 +120,7 @@ function scenario5() {
         '1'
     ]) {
         // display story for answer 1 of scenario 5
-        message('.');
+        alert('.');
         console.log('answer 1/2');
     } else if (ans5 == [
         'b',
@@ -128,7 +128,7 @@ function scenario5() {
         '2'
     ]) {
         // display story for answer 2 of scenario 5
-        message('.');
+        alert('.');
         console.log('answer 2/2');
     }
 }
@@ -168,7 +168,7 @@ function scenario7() {
         '1'
     ]) {
         // display story for answer 1 of scenario 7
-        message('.');
+        alert('.');
         console.log('answer 1/2');
     } else if (ans7 == [
         'b',
@@ -176,7 +176,7 @@ function scenario7() {
         '2'
     ]) {
         // display story for answer 2 of scenario 7
-        message('.');
+        alert('.');
         console.log('answer 2/2');
     }
 }
@@ -191,7 +191,7 @@ function scenario8() {
         '1'
     ]) {
         // display story for answer 1 of scenario 8
-        message('.');
+        alert('.');
         console.log('answer 1/2');
     } else if (ans8 == [
         'b',
@@ -199,7 +199,7 @@ function scenario8() {
         '2'
     ]) {
         // display story for answer 2 of scenario 8
-        message('.');
+        alert('.');
         console.log('answer 2/2');
     }
 }
@@ -237,7 +237,7 @@ function scenario10() {
         '1'
     ]) {
         // display story for answer 1 of scenario 10
-        message('.');
+        alert('.');
         console.log('answer 1/2');
     } else if (ans10 == [
         'b',
@@ -245,7 +245,7 @@ function scenario10() {
         '2'
     ]) {
         // display story for answer 2 of scenario 10
-        message('.');
+        alert('.');
         console.log('answer 2/2');
     }
 }
