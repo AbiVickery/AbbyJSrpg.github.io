@@ -39,8 +39,8 @@ function scenario1() {
 }
 // scenario1();
 function scenario2() {
-    alert('.');
-    ans2 = prompt('.');
+    alert('You continue flying around, laughing about your previous adventure with that human, the look on their face after what you had done. You wer\'nt really paying attention to where you were going and got sucked into a vaccum cleaner. You are now stuck inside the vaccum, trying to think of what to do next. You have 2 choices.');
+    ans2 = prompt('You can A. Wait until the vaccum gets emptied and/or turned off and then escape. or B. Fly into the mechanics and break the vaccum down.');
     // takes answers
     if (ans2 == [
         'a',
@@ -48,7 +48,7 @@ function scenario2() {
         '1'
     ]) {
         // display story for answer 1 of scenario 2
-        message('.');
+        alert('You wait for the vaccum to finish and eventually turn off. Once it does turn off, you make for the exit and fly away from the machine. Thank goodness you did\'nt try anything drastic, who knows how that would have ended...');
         console.log('answer 1/2');
     } else if (ans2 == [
         'b',
@@ -56,7 +56,7 @@ function scenario2() {
         '2'
     ]){
         // display story for answer 2 of scenario 2
-        message('.');
+        alert('You go to the inner mechanics of the vaccum and clog it up with debris that was stuck to your legs. The whole vaccum starts making bad noises and it stops. You take this chance to escape the vaccum cleaner and fly away.');
         console.log('answer 2/2');
     }
 }
