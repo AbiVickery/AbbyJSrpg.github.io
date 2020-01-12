@@ -72,7 +72,13 @@ Scenario #7
     .
 
 Scenario #8
-    .
+    You are flying around the town and you see a lab-like structure on a hill by itself. Curiousity sets in and you contemplate whether or not you should explore it or just keep flying around the town. Do you- {A. Go and explore the Lab? or B. Keep exploring the town?}
+    (if you chose A:[
+        You decided to go and explore the lab, curious as to what might lie inside the halls of the sterile building.
+    ]
+    if you chose B:[
+        You start to lose interest in the building on the hill and contine exploring the town, but later on you keep thinking about the building on the hill, what secrets it might hold. Eventually, you decide to go back and take a look around the lab, curiousity outrulling reason.
+    ])
 
 Scenario #9
     You are flying around a laboratory and you spot a strange device on the table. Normally when you see devices like this, you ignore them but this one is tiny, small enough for you to operate. You look at what different controls it has and there are 2 buttons. One is blue with a circle shape. The other is yellow with a square shape. On the back of the device is a warning not to use or there will be severe consequences. Being the tiny jerk you are, you ignore the warning and decide to use the device just to be funny. Which button do you press?
