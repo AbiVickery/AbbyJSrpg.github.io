@@ -228,8 +228,8 @@ function scenario9() {
 }
 // scenario9();
 function scenario10() {
-    alert('.');
-    ans10 = prompt('.');
+    alert('You are now in a different part of the lab, exploring and kind of wondering where all the lab people are since you have\'nt seen any lately. You stumble into a large warehouse-like room that has a huge rocket ship. Your curiousity compels you! You go inside the rocket and see a control panel with all sorts of buttons and switches.');
+    ans10 = prompt('Do you- A. Press all the buttons and switches until something happens? or B. Only press one random button?');
     // takes answers
     if (ans10 = [
         'a',
@@ -237,7 +237,7 @@ function scenario10() {
         '1'
     ]) {
         // display story for answer 1 of scenario 10
-        alert('.');
+        alert('You press all the buttons and switches to see what happens and for fun because why not? Lots of lights start flashing and noises go off, including what sounds like the engines starting up. Suddenly the rocket blasts right through the roof of the lab and starts heading up into the sky, breaking through the atmosphere. You look out the window and see that you are headed towards the moon! What will you do now? Will you be the first radioactive fly on the moon!?');
         console.log('answer 1/2');
     } else if (ans10 == [
         'b',
@@ -245,7 +245,7 @@ function scenario10() {
         '2'
     ]) {
         // display story for answer 2 of scenario 10
-        alert('.');
+        alert('YOu decided to only press one button and choose a random one. Suddenly a countdown starts and then you hear the sound of the engines of the rocket turning on. You know what that means... THE ROCKET IS GETTING READY TO LAUNCH!!! You and the rocket soon start making your way up, pushing through the earth\'s atmosphere, heading for the moon! What will happen now?');
         console.log('answer 2/2');
     }
 }
