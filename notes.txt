@@ -51,7 +51,7 @@ Scenario #2
     ]}
 
 Scenario #3
-    .
+    You decide to leave the house and go out to explore the town.
 
 Scenario #4
     .
