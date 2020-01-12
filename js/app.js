@@ -182,8 +182,8 @@ function scenario7() {
 }
 // scenario7();
 function scenario8() {
-    alert('.');
-    ans8 = prompt('.');
+    alert('You are flying around the town and you see a lab-like structure on a hill by itself. Curiousity sets in and you contemplate whether or not you should explore it or just keep flying around the town.');
+    ans8 = prompt('Do you- A. Go and explore the Lab? or B. Keep exploring the town?');
     // takes answers
     if (ans8 == [
         'a',
@@ -191,7 +191,7 @@ function scenario8() {
         '1'
     ]) {
         // display story for answer 1 of scenario 8
-        alert('.');
+        alert('You decided to go and explore the lab, curious as to what might lie inside the halls of the sterile building.');
         console.log('answer 1/2');
     } else if (ans8 == [
         'b',
@@ -199,7 +199,7 @@ function scenario8() {
         '2'
     ]) {
         // display story for answer 2 of scenario 8
-        alert('.');
+        alert('You start to lose interest in the building on the hill and continue exploring the town, but later on you keep thinking about the building on the hill, what secrets it might hold. Eventually, you decide to go back and take a look around the lab, curiousity outrulling reason.');
         console.log('answer 2/2');
     }
 }

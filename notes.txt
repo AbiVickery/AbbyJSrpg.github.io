@@ -77,7 +77,7 @@ Scenario #8
         You decided to go and explore the lab, curious as to what might lie inside the halls of the sterile building.
     ]
     if you chose B:[
-        You start to lose interest in the building on the hill and contine exploring the town, but later on you keep thinking about the building on the hill, what secrets it might hold. Eventually, you decide to go back and take a look around the lab, curiousity outrulling reason.
+        You start to lose interest in the building on the hill and continue exploring the town, but later on you keep thinking about the building on the hill, what secrets it might hold. Eventually, you decide to go back and take a look around the lab, curiousity outrulling reason.
     ])
 
 Scenario #9
