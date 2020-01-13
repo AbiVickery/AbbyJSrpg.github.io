@@ -74,7 +74,6 @@ function scenario3() {
         // display story for answer 1 of scenario 3
         alert('You decided to explore the gas station. There were only 2 gas pumps so it was\'nt a very big station. They looked old as well as a bit unused, as if this gas station did\'nt get very many visitors. As for the inside, it was hardly stocked and you could\'nt see anyone else. You honestly started to wonder if this place was even open... Eventually you were bored and decided to leave and explore the rest of town.');
         console.log('answer 1/3');
-        scenario4();
     } else if (ans3 == [
         'b',
         'B',
@@ -83,7 +82,6 @@ function scenario3() {
         // display story for answer 2 of scenario 3
         alert('You decided to explore the library. The inside was not to bad. It was decorated to look like a nice place, except that it was really old. So old that some of the paint was starting to peel and chip. There were shelves with books covered in dust like they have\'nt seen the sun in forever. Speaking of sun, there was a broken window on the cieling that let in the sun light, making the whole place seem a bit magical. Buth there wer\'nt any people in the library... Eventually you got bored after flying around the empty library and decided to go back out and explore the rest of the town.');
         console.log('answer 2/3');
-        scenario5();
     } else if (ans3 == [
         'c',
         'C',
@@ -92,12 +90,9 @@ function scenario3() {
         // display story for answer 3 of scenario 3
         alert('You decided to explore the convenience store. The outside of the store was boring and placid, but the inside was quite different. The place was quite lively. There were shelves with all different kinds of item son them. People were busy walking around looking for objects through the store. There was one person that seemed a bit strange, so you went over to them to see what they were doing . When you were at eye level with them and they noticed you, they screamed as loud as they could. You guessed they must have an irrational fear of insects and made your way out of the store quickly. Well, back to exploring the rest of the town.');
         console.log('answer 3/3');
-        scenario6();
     }
 }
 // scenario3();
-/* make sure functions scenario4 - scenario6 come before the function scenario3. */
-
 function scenario4() {
     alert('.');
     ans4 = prompt('.');
