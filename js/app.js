@@ -96,6 +96,7 @@ function scenario2() {
     }
 }
 // scenario3();
+// make sure functions scenario4 - scenario6 come before the function scenario3.
 
 function scenario4() {
     alert('.');
