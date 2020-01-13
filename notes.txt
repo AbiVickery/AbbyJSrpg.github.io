@@ -100,7 +100,7 @@ Scenario #9
         At first, nothing happens. But then he hears a strange noise and suddenly there is a massive black hole forming in the room out of thin air. It swallows the entire earth and everything and everyone dies. THE END!
     ]
     if you chose B:[
-        Percy pushes the yellow button and suddenly it starts raining inside the lab. Apparently he did'nt notice he was sitting under a shower head that has been attached to the ceiling. The liquid is a sort of yellow color. Its lemonade! YUM! While he sits there enjoying the lemonade, he wonders who made this device and why. Percy is happy with the lemonade but now he goes off to explore the rest of the lab.
+        Percy pushes the yellow button and suddenly it starts raining inside the lab. Apparently he didn't notice he was sitting under a shower head that has been attached to the ceiling. The liquid is a sort of yellow color. Its lemonade! YUM! While he sits there enjoying the lemonade, he wonders who made this device and why. Percy is happy with the lemonade but now he goes off to explore the rest of the lab.
     ])
 
 Scenario #10
