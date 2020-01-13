@@ -53,6 +53,15 @@ Scenario #2
 Scenario #3
     You decide to leave the house and go out to explore the town. This town is not as big as most but it is quite decent. You pass by a gas station, a library and a convenience store. You think about exploring one of those places but which one?
     Do you {A. Explore the Gas Station? or B. Explore the Library? or C. Explore the Convenience Store?}
+    (if you chose A:[
+        .
+    ]
+    if you chose B:[
+        .
+    ]
+    if you chose C:[
+        .
+    ])
 
 Scenario #4
     .

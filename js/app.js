@@ -62,7 +62,7 @@ function scenario2() {
 }
 // scenario2();
 
-function scenario3() {
+function scenario2() {
     alert('.');
     ans3 = prompt('.');
     // takes answers
@@ -73,7 +73,7 @@ function scenario3() {
     ]) {
         // display story for answer 1 of scenario 3
         alert('.');
-        console.log('answer 1/2');
+        console.log('answer 1/3');
     } else if (ans3 == [
         'b',
         'B',
@@ -81,7 +81,15 @@ function scenario3() {
     ]) {
         // display story for answer 2 of scenario 3
         alert('.');
-        console.log('answer 2/2');
+        console.log('answer 2/3');
+    } else if (ans3 == [
+        'c',
+        'C',
+        '3'
+    ]) {
+        // display story for answer 3 of scenario 3
+        alert('.');
+        console.log('answer 3/3');
     }
 }
 // scenario3();
