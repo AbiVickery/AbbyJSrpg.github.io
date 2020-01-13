@@ -16,8 +16,8 @@ alert('Page still in development!');
 } */
 
 function scenario1() {
-    alert('You fly around a home and a human is in the proccess of yawning. Do you-');
-    ans1 = prompt('A. Fly into their mouth, knowing you have a 50/50 chance of survival? or B. Land on their nose while their eyes are closed?');
+    alert('.');
+    ans1 = prompt('.');
     // takes answers
     if (ans1 == [
         'a',
@@ -25,7 +25,7 @@ function scenario1() {
         '1'
     ]) {
         //display story for answer 1 of scenario1
-        alert('You zoom into the person\'s mouth, buzzing around in the dark cave. Its all wet and smells bad, ideal for you to live in if you wanted to. As you\'re floating around in the mouth, the person finishes yawning and closes their mouth. Only a few seconds after closing their mouth do they realize what has happened and immedeatly open it back up and start coughing and wheezing. You take this chance to escape! That was fun!');
+        alert('.');
         console.log('answer 1/2');
     } else if (ans1 == [
         'b',
@@ -33,14 +33,14 @@ function scenario1() {
         '2'
     ]) {
         // display story for answer 2 of scenario1
-        alert('You decide to land on their nose while their eyes are closed. What you didn\'t know was that they had a fly swatter in their hands, but that didn\'t stop you. They took the fly swatter and tried to get you, but you are to fast and quick on your feet, so instead of getting you, they end up hitting themselves in the face, leaving a red mark especially around the nose.');
+        alert('.');
         console.log('answer 2/2');
     }
 }
 // scenario1();
 function scenario2() {
-    alert('You continue flying around, laughing about your previous adventure with that human, the look on their face after what you had done. You wer\'nt really paying attention to where you were going and got sucked into a vaccum cleaner. You are now stuck inside the vaccum, trying to think of what to do next. You have 2 choices.');
-    ans2 = prompt('You can A. Wait until the vaccum gets emptied and/or turned off and then escape. or B. Fly into the mechanics and break the vaccum down.');
+    alert('.');
+    ans2 = prompt('.');
     // takes answers
     if (ans2 == [
         'a',
@@ -48,7 +48,7 @@ function scenario2() {
         '1'
     ]) {
         // display story for answer 1 of scenario 2
-        alert('You wait for the vaccum to finish and eventually turn off. Once it does turn off, you make for the exit and fly away from the machine. Thank goodness you did\'nt try anything drastic, who knows how that would have ended...');
+        alert('.');
         console.log('answer 1/2');
     } else if (ans2 == [
         'b',
@@ -56,15 +56,15 @@ function scenario2() {
         '2'
     ]){
         // display story for answer 2 of scenario 2
-        alert('You go to the inner mechanics of the vaccum and clog it up with debris that was stuck to your legs. The whole vaccum starts making bad noises and it stops. You take this chance to escape the vaccum cleaner and fly away.');
+        alert('.');
         console.log('answer 2/2');
     }
 }
 // scenario2();
 
 function scenario3() {
-    alert('You decide to leave the house and go out to explore the town. This town is not as big as most but it is quite decent. You pass by a gas station, a library and a convenience store. You think about exploring one of those places but which one?');
-    ans3 = prompt('Do you- A. Explore the Gas Station? B. Explore the Library? or C. Explore the Convenience Store?');
+    alert('.');
+    ans3 = prompt('.');
     // takes answers
     if (ans3 == [
         'a',
@@ -72,7 +72,7 @@ function scenario3() {
         '1'
     ]) {
         // display story for answer 1 of scenario 3
-        alert('You decided to explore the gas station. There were only 2 gas pumps so it was\'nt a very big station. They looked old as well as a bit unused, as if this gas station did\'nt get very many visitors. As for the inside, it was hardly stocked and you could\'nt see anyone else. You honestly started to wonder if this place was even open... Eventually you were bored and decided to leave and explore the rest of town.');
+        alert('.');
         console.log('answer 1/3');
     } else if (ans3 == [
         'b',
@@ -80,7 +80,7 @@ function scenario3() {
         '2'
     ]) {
         // display story for answer 2 of scenario 3
-        alert('You decided to explore the library. The inside was not to bad. It was decorated to look like a nice place, except that it was really old. So old that some of the paint was starting to peel and chip. There were shelves with books covered in dust like they have\'nt seen the sun in forever. Speaking of sun, there was a broken window on the cieling that let in the sun light, making the whole place seem a bit magical. Buth there wer\'nt any people in the library... Eventually you got bored after flying around the empty library and decided to go back out and explore the rest of the town.');
+        alert('.');
         console.log('answer 2/3');
     } else if (ans3 == [
         'c',
@@ -88,7 +88,7 @@ function scenario3() {
         '3'
     ]) {
         // display story for answer 3 of scenario 3
-        alert('You decided to explore the convenience store. The outside of the store was boring and placid, but the inside was quite different. The place was quite lively. There were shelves with all different kinds of item son them. People were busy walking around looking for objects through the store. There was one person that seemed a bit strange, so you went over to them to see what they were doing . When you were at eye level with them and they noticed you, they screamed as loud as they could. You guessed they must have an irrational fear of insects and made your way out of the store quickly. Well, back to exploring the rest of the town.');
+        alert('.');
         console.log('answer 3/3');
     }
 }
@@ -142,8 +142,8 @@ function scenario5() {
 // scenario5();
 
 function scenario6() {
-    alert('You\'re now in a building that has lots of people in dress clothes. Theres a stage with someone on it that looks nervous, like they are about to give a big speech. They have a microphone sitting in a microphone stand. You suddenly have an idea. Do you-');
-    ans6 = prompt('A. Go through with the idea? or B. Ignore the idea knowing you could be killed and continue exploring the building?');
+    alert('.');
+    ans6 = prompt('.');
     // takes answers
     if (ans6 == [
         'a',
@@ -151,7 +151,7 @@ function scenario6() {
         '1'
     ]) {
         // display story for answer 1 of scenario 6
-        alert('YOu decide to go through with your idea. First you sneak over to the mic, making sure its plugged in (which it is of course). Then you land on the microphone and make the most annoying buzzing noises ever as loud as you can. The whole room is in an uproar as they think the noise is caused by someone in the back messing with the sound systems. You just sit there laughing while buzzing until someone see you on the mic and then- SPLAT! You have been squished! But on the plus side, the person that smushed you didn\'t know that you were radioactive so now they have radiation poisoning. Poor them. POOR YOU! Oh well, that\'s life. THE END!');
+        alert('.');
         console.log('answer 1/2');
     } else if (ans6 == [
         'b',
@@ -159,7 +159,7 @@ function scenario6() {
         '2'
     ]) {
         // display story for answer 2 of scenario 6
-        alert('You continue on with your adventure, exploring the building.');
+        alert('.');
         console.log('answer 2/2');
     }
 }
@@ -189,8 +189,8 @@ function scenario7() {
 }
 // scenario7();
 function scenario8() {
-    alert('You are flying around the town and you see a lab-like structure on a hill by itself. Curiousity sets in and you contemplate whether or not you should explore it or just keep flying around the town.');
-    ans8 = prompt('Do you- A. Go and explore the Lab? or B. Keep exploring the town?');
+    alert('.');
+    ans8 = prompt('.');
     // takes answers
     if (ans8 == [
         'a',
@@ -198,7 +198,7 @@ function scenario8() {
         '1'
     ]) {
         // display story for answer 1 of scenario 8
-        alert('You decided to go and explore the lab, curious as to what might lie inside the halls of the sterile building.');
+        alert('.');
         console.log('answer 1/2');
     } else if (ans8 == [
         'b',
@@ -206,14 +206,14 @@ function scenario8() {
         '2'
     ]) {
         // display story for answer 2 of scenario 8
-        alert('You start to lose interest in the building on the hill and continue exploring the town, but later on you keep thinking about the building on the hill, what secrets it might hold. Eventually, you decide to go back and take a look around the lab, curiousity outrulling reason.');
+        alert('.');
         console.log('answer 2/2');
     }
 }
 // scenario8();
 function scenario9() {
-    alert('YOu are flying around a laboratory and you spot a strange device on the table. Normally when you see devices like this, you ignore them but this one is tiny, small enough for you to operate. You look at what different controls it has and there are 2 buttons. One is blue with a circle shape. The other is yellow with a square shape. On the back of the device is a warning not to use or there will be severe consequences. Being the tiny jerk you are, you ignore the warning and decide to use the device just to be funny. Which button do you press? Do you press-');
-    ans9 = prompt('A. The blue circle button? or B. The yellow square button?');
+    alert('.');
+    ans9 = prompt('.');
     // takes answers
     if (ans9 == [
         'a',
@@ -221,7 +221,7 @@ function scenario9() {
         '1'
     ]) {
         // display story for answer 1 of scenario 9
-        alert('At first, nothing happens. But then you hear a strange noise and suddenly there is a massive black hole forming in the room out of thin air. It swallows the entire earth and everything and everyone dies. THE END!');
+        alert('.');
         console.log('answer 1/2');
     } else if (ans9 == [
         'b',
@@ -229,14 +229,14 @@ function scenario9() {
         '2'
     ]) {
         // display story for answer 2 of scenario 9
-        alert('You push the yellow button and suddenly it starts raining inside the lab. Apparently you didn\'t notice you were sitting under a shower head that has been attached to the ceiling. The liquid is a sort of yellow color. It\'s lemonade! YUM! While you sit there enjoying the lemonade, you wonder who made this device and why. You are happy with the lemonade but now you go to explore the rest of the lab.');
+        alert('.');
         console.log('answer 2/2');
     }
 }
 // scenario9();
 function scenario10() {
-    alert('You are now in a different part of the lab, exploring and kind of wondering where all the lab people are since you have\'nt seen any lately. You stumble into a large warehouse-like room that has a huge rocket ship. Your curiousity compels you! You go inside the rocket and see a control panel with all sorts of buttons and switches.');
-    ans10 = prompt('Do you- A. Press all the buttons and switches until something happens? or B. Only press one random button?');
+    alert('.');
+    ans10 = prompt('.');
     // takes answers
     if (ans10 = [
         'a',
@@ -244,7 +244,7 @@ function scenario10() {
         '1'
     ]) {
         // display story for answer 1 of scenario 10
-        alert('You press all the buttons and switches to see what happens and for fun because why not? Lots of lights start flashing and noises go off, including what sounds like the engines starting up. Suddenly the rocket blasts right through the roof of the lab and starts heading up into the sky, breaking through the atmosphere. You look out the window and see that you are headed towards the moon! What will you do now? Will you be the first radioactive fly on the moon!?');
+        alert('.');
         console.log('answer 1/2');
     } else if (ans10 == [
         'b',
@@ -252,7 +252,7 @@ function scenario10() {
         '2'
     ]) {
         // display story for answer 2 of scenario 10
-        alert('YOu decided to only press one button and choose a random one. Suddenly a countdown starts and then you hear the sound of the engines of the rocket turning on. You know what that means... THE ROCKET IS GETTING READY TO LAUNCH!!! You and the rocket soon start making your way up, pushing through the earth\'s atmosphere, heading for the moon! What will happen now?');
+        alert('.');
         console.log('answer 2/2');
     }
 }
