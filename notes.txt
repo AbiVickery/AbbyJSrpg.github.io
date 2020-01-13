@@ -60,7 +60,7 @@ Scenario #3
         You decided to explore the library. The inside was not to bad. It was decorated to look like a nice library, except that it was really old. So old that some of the paint was starting to peel and chip. There were shelves with books covered in dust like they havent seen the sun in forever. Speaking of sun, there was a broken window on the cieling that let in sun light, making the whole place seem a bit magical. But there wernt any people in the library... Eventually you got bored after flying around the empty library and decided to go back out and explore the rest of the town.
     ]
     if you chose C:[
-        You decided to explore the convenience store.
+        You decided to explore the convenience store. The outside of the store was boring and placid, but the inside was quite different. There were shelves with all different kinds of items on them. People were busy walking around looking for objects through the store. There was one person that seemed a bit strange, so you went over to them to see what they were doing. When you were at eye level with them and they noticed you, they screamed as loud as they could. You guessed they must have an irational fear of inscets and made you way out of the store quickly. Well, back to exploring the rest of the town.
     ])
 
 Scenario #4
