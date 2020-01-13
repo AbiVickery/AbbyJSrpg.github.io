@@ -57,7 +57,7 @@ Scenario #3
         You decided to explore the gas station. There were only 2 gas pumps so it wasnt a very big station. They looked old as well as a bit unused, as if this gas station didnt get very many visitors. As for the inside, it was hardly stocked and you couldnt see anyone else. You honetly started to wonder if this place was even open... Eventually you were bored and decided to leave and explore the rest of town.
     ]
     if you chose B:[
-        You decided to explore the library. The inside was not to bad. It was decorated to look like a nice library, except that it was really old. So old that some of the paint was starting to peel and chip.
+        You decided to explore the library. The inside was not to bad. It was decorated to look like a nice library, except that it was really old. So old that some of the paint was starting to peel and chip. There were shelves with books covered in dust like they havent seen the sun in forever. Speaking of sun, there was a broken window on the cieling that let in sun light, making the whole place seem a bit magical. But there wernt any people in the library... Eventually you got bored after flying around the empty library and decided to go back out and explore the rest of the town.
     ]
     if you chose C:[
         You decided to explore the convenience store.
