@@ -74,6 +74,7 @@ function scenario2() {
         // display story for answer 1 of scenario 3
         alert('.');
         console.log('answer 1/3');
+        scenario4();
     } else if (ans3 == [
         'b',
         'B',
@@ -82,6 +83,7 @@ function scenario2() {
         // display story for answer 2 of scenario 3
         alert('.');
         console.log('answer 2/3');
+        scenario5();
     } else if (ans3 == [
         'c',
         'C',
@@ -90,6 +92,7 @@ function scenario2() {
         // display story for answer 3 of scenario 3
         alert('.');
         console.log('answer 3/3');
+        scenario6();
     }
 }
 // scenario3();
