@@ -72,15 +72,15 @@ body {
    #bio {
     text-align: center;
     font-size: 52px;
-    background: -webkit-linear-gradient(#650b81, #e946c1);
+    background: -webkit-linear-gradient(#834197, #66aa5d);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
    }
 
    .biobio {
        text-align: center;
-       font-size: 22px;
-       background: -webkit-linear-gradient(#e946c1, #9d4ee7);
+       font-size: 23px;
+       background: -webkit-linear-gradient(#66aa5d, #834197);
        -webkit-background-clip: text;
        -webkit-text-fill-color: transparent;
    }
