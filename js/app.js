@@ -118,30 +118,6 @@ function scenario4() {
 // scenario4();
 
 function scenario5() {
-    alert('.');
-    ans5 = prompt('.');
-    // takes answers
-    if (ans5 == [
-        'a',
-        'A',
-        '1'
-    ]) {
-        // display story for answer 1 of scenario 5
-        alert('.');
-        console.log('answer 1/2');
-    } else if (ans5 == [
-        'b',
-        'B',
-        '2'
-    ]) {
-        // display story for answer 2 of scenario 5
-        alert('.');
-        console.log('answer 2/2');
-    }
-}
-// scenario5();
-
-function scenario6() {
     alert('Percy is now in a building that has lots of people in dress clothes. There\'s a stage with someone on it that looks nervous, like they are about to give a big speech. They have a microphone sitting in a microphone stand. Percy suddenly has an idea.');
     ans6 = prompt('Does he- A. Go through with the idea? or B. Ignore the idea knowing he could be killed and continue exploring the building?');
     // takes answers
@@ -150,7 +126,7 @@ function scenario6() {
         'A',
         '1'
     ]) {
-        // display story for answer 1 of scenario 6
+        // display story for answer 1 of scenario 5
         alert('Percy decides to go through with his idea. First he sneaks over to the mic, making sure its plugged in (which is is of course). Then he lands on the microphone and makes the most annoying buzzing noises ever as loud as he can. The whole room is in an uproar as they think the noise is caused by someone in the back messing with the sound systems. Percy just sits there luaghing while buzzing until someone sees him sitting on the microphone and then- SPLAT! He has been smushed! But on the plus side, the person that smushed him didn\'t know that Percy was radioactive so now they have radioation poisoning. Poor them. POOR PERCY! Oh well, that\'s life. THE END!');
         console.log('answer 1/2');
     } else if (ans6 == [
@@ -158,14 +134,14 @@ function scenario6() {
         'B',
         '2'
     ]) {
-        // display story for answer 2 of scenario 6
+        // display story for answer 2 of scenario 5
         alert('Percy continues on with his adventure, exploring the building.');
         console.log('answer 2/2');
     }
 }
-// scenario6();
+// scenario5();
 
-function scenario7() {
+function scenario6() {
     alert('.');
     ans7 = prompt('.');
     // takes answers
@@ -174,7 +150,7 @@ function scenario7() {
         'A',
         '1'
     ]) {
-        // display story for answer 1 of scenario 7
+        // display story for answer 1 of scenario 6
         alert('.');
         console.log('answer 1/2');
     } else if (ans7 == [
@@ -182,13 +158,13 @@ function scenario7() {
         'B',
         '2'
     ]) {
-        // display story for answer 2 of scenario 7
+        // display story for answer 2 of scenario 6
         alert('.');
         console.log('answer 2/2');
     }
 }
-// scenario7();
-function scenario8() {
+// scenario6();
+function scenario7() {
     alert('Percy is currently flying around the town and he sees a lab-like structure on a hill by itself. Curiousity sets in and he contemplates whether or not he should explore it or just keep flying around the town.');
     ans8 = prompt('Does he- A. Go and explore the Lab? or B. Keep exploring the town?');
     // takes answers
@@ -197,7 +173,7 @@ function scenario8() {
         'A',
         '1'
     ]) {
-        // display story for answer 1 of scenario 8
+        // display story for answer 1 of scenario 7
         alert('Percy decided to go and explore the lab, curious as to what might lie inside the halls of the sterile building.');
         console.log('answer 1/2');
     } else if (ans8 == [
@@ -205,13 +181,13 @@ function scenario8() {
         'B',
         '2'
     ]) {
-        // display story for answer 2 of scenario 8
+        // display story for answer 2 of scenario 7
         alert('Percy starts to lose interest in the building on the hill and continues exploring the town, but later on he keeps thinking about the building on the hill, what secrets it might hold. Eventually, he decides to go back and take a look around the lab, curiosity outrulling reason.');
         console.log('answer 2/2');
     }
 }
-// scenario8();
-function scenario9() {
+// scenario7();
+function scenario8() {
     alert('Percy is flying around the laboratory and he spots a strange device on the table. Normally when he sees devices like this, he ignores them but this one is tiny, small enough for him to operate. He looks at what different controls it has and there are 2 buttons. One is blue with a circle shape. The other is yellow with a square shape. On the back of the device is a warning not to use or there will be severe consequences. Being the tiny jerk he is, Percy ignores the warning and decides to use the device just to be funny. Which button does he press?');
     ans9 = prompt('Does he press- A. The blue circle button? or B. The yellow square button?');
     // takes answers
@@ -220,7 +196,7 @@ function scenario9() {
         'A',
         '1'
     ]) {
-        // display story for answer 1 of scenario 9
+        // display story for answer 1 of scenario 8
         alert('At first, nothing happens. But then he hears a strange noise and suddenly there is a massive black hole forming in the room out of thin air. It swallows the entire earth and everything and everyone dies. THE END!');
         console.log('answer 1/2');
     } else if (ans9 == [
@@ -228,13 +204,13 @@ function scenario9() {
         'B',
         '2'
     ]) {
-        // display story for answer 2 of scenario 9
+        // display story for answer 2 of scenario 8
         alert('PErcy pushes the yellow button and suddenly it starts raining inside the lab. Apparently he didn\'t notice he was sitting under a shower head that has been attached to the ceiling. The liquid is a sort of yellow color. Its lemonade! YUM! While he sits there enjoying the lemonade, he wonders who made this device and why. Percy is happy with the lemonade but now he goes off to explore the rest of the lab.');
         console.log('answer 2/2');
     }
 }
-// scenario9();
-function scenario10() {
+// scenario8();
+function scenario9() {
     alert('Percy is now in a different part of the lab, exploring and kind of wondering where all the lab people are cause he hasnt seen any lately. He stumbles into a large warehouse-like room that has a huge rocket ship. His curiousity compels him! He goes inside the rocket and sees a control panel with all sorts of buttons and switches.');
     ans10 = prompt('Does he- A. Press all the buttons and switches until something happens? or B. Only press one random button?');
     // takes answers
@@ -243,7 +219,7 @@ function scenario10() {
         'A',
         '1'
     ]) {
-        // display story for answer 1 of scenario 10
+        // display story for answer 1 of scenario 9
         alert('Percy presses all the buttons and switches to see what happens and for fun because why not? Lots of lights start flashing and noises go off, including what sounds like the engines starting up. Suddenly the rocket blasts right through the roof of the lab and starts heading up into the sky, breaking through the atmosphere. Percy looks out the window and sees that he is headed towards the moon! What will he do now? Will he be the first radioactive fly on the moon!?');
         console.log('answer 1/2');
     } else if (ans10 == [
@@ -251,12 +227,12 @@ function scenario10() {
         'B',
         '2'
     ]) {
-        // display story for answer 2 of scenario 10
+        // display story for answer 2 of scenario 9
         alert('Percy decided to only press one button and choose a random one. Suddenly a countdown starts and he hears the sound of the engines of the rocket turning on. He knows what that means... THE ROCKET IS GETTING READY TO LAUNCH!!! Percy and the rocket soon start making their way up, pushing through the earth\'s atmosphere, heading for the moon! What will happen now?');
         console.log('answer 2/2');
     }
 }
-// scenario10();
+// scenario9();
 
 // function myFunction() {
 //     document.getElementById("demo").innerHTML = "test1 of js to text";
