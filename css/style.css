@@ -69,6 +69,14 @@ body {
   }
    */
 
+   h1 {
+     text-align: center;
+     font-size: 25px;
+     background: -webkit-linear-gradient(#4ce980, #e639b2);
+     background: -webkit-background-clip (text);
+     background: -webkit-text-fill-color (transparent);
+   }
+
    #bio {
     text-align: center;
     font-size: 52px;
