@@ -13,3 +13,5 @@ Some information about the character Percy in the game:
     One day while flying around, Percy accidently landed on something radioactive and became radioacactive himself.
     He now can fly slightly faster than before, has skin as stong as steel, I mean he's basically a living bullet.
     Now, with his new abilities, he flies around being the tinest jerk alive (at the moment).
+
+    (look at the notes to see more.)
