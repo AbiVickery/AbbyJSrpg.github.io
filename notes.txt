@@ -1,5 +1,5 @@
 Title:
-    .
+    Percy Mercy, The fly with no mercy.
 
 Characters:
     Percy the radioactive fly
@@ -12,7 +12,7 @@ Characters:
 ~~~
 
 Title:
-    Percy Mercy, The fly with no mercy.
+    ~ ~ ~
 
 Characters:
     .
