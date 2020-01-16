@@ -16,7 +16,7 @@ body {
     transform: translate(-50%, -50%);
     width: calc(2048px /5 );
     height: 1536px;
-    background: url(media/IMG_1734.PNG);
+    background: url(IMG_1734.PNG);
     animation: animate 450ms steps(5) infinite;
     text-align: center;
     /* margin: 38px 6px; */
