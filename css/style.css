@@ -19,7 +19,7 @@ body {
     background: url(IMG_1734.PNG);
     animation: animate 450ms steps(5) infinite;
     text-align: center;
-    /* margin: 38px 6px; */
+    margin: 638px 117px;
   }
   @keyframes  animate {
    from {
@@ -110,7 +110,7 @@ body {
      background: url(spk-trot.png);
      animation: animate 0.7s steps(16) infinite;
      text-align: center;
-     margin-top: 1121px;
+     margin-top: 1222px;
      margin-right: -80px;
      margin-bottom: -111px;
      margin-left: -354px;
