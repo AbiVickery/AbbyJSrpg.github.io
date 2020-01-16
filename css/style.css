@@ -123,3 +123,10 @@ body {
        background-position: 0;
      }
    }
+
+   #code {
+     font-size: 15px;
+     background: -webkit-repeating-linear-gradient(#fcb430, #d737ec);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+   }
