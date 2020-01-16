@@ -89,7 +89,7 @@ Scenario #5
     ])
 
 Scenario #6
-    Percy continues searching the building, looking for fun things to do when he stumbles upon...
+    Percy continues searching the building, looking for fun things to do when he stumbles upon a tray of cupcakes...
 
 Scenario #7
     Percy is currently flying around the town and he sees a lab-like structure on a hill by itself. Curiousity sets in and he contemplates whether or not he should explore it or just keep flying around the town. Does he- {A. Go and explore the Lab? or B. Keep exploring the town?}

@@ -70,27 +70,27 @@ body {
    */
 
    h1 {
-     text-align: center;
-     font-size: 25px;
-     background: -webkit-linear-gradient(#4ce980, #e639b2);
-     background: -webkit-background-clip (text);
-     background: -webkit-text-fill-color (transparent);
+    text-align: center;
+    font-size: 25px;
+    background: -webkit-repeating-linear-gradient(#4ce980, #e639b2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
    }
 
    #bio {
     text-align: center;
     font-size: 52px;
     background: -webkit-linear-gradient(#974169, #66aa5d);
-    background: -webkit-background-clip (text);
-    background: -webkit-text-fill-color (transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
    }
 
    .biobio {
-       text-align: center;
-       font-size: 23px;
-       background: -webkit-linear-gradient(#66aa5d, #974169);
-       background: -webkit-background-clip (text);
-       background: -webkit-text-fill-color (transparent);
+     text-align: center;
+     font-size: 23px;
+     background: -webkit-linear-gradient(#66aa5d, #974169);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
    }
 
    #per {
