@@ -98,3 +98,25 @@ body {
      border-radius: 15%;
      /* border-style: #111111; */
    }
+
+   #spk {
+     max-width: 100%;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     width: calc(1280px /16);
+     height: 90px;
+     background: url(media/spk-trot.png);
+     animation: animate 7s steps(16) infinite;
+     text-align: center;
+     margin: 0;
+   }
+   @keyframes animate {
+     from {
+       background-position: 0;
+     }
+     to {
+       background-position: 1280px;
+     }
+   }
