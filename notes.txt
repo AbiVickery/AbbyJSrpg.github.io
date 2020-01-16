@@ -89,7 +89,13 @@ Scenario #5
     ])
 
 Scenario #6
-    Percy continues searching the building, looking for fun things to do when he stumbles upon a tray of cupcakes...
+    Percy continues searching the building, looking for fun things to do when he stumbles upon a tray of cupcakes. Percy is feeling hungry and wants to eat some of one of those cupcakes but there is a person gaurding them. Will he- {A. Swoop in like a ravage bird and dive-bomb onto one of the cupcakes? or B. wait for the person to go away?}
+    (if you chose A:[
+        .
+    ]
+    if you chose B:[
+        .
+    ])
 
 Scenario #7
     Percy is currently flying around the town and he sees a lab-like structure on a hill by itself. Curiousity sets in and he contemplates whether or not he should explore it or just keep flying around the town. Does he- {A. Go and explore the Lab? or B. Keep exploring the town?}
