@@ -152,3 +152,9 @@ If this is successful, might make a prequal about how Percy became a radioactive
 code for adding music to the site.
 
 <embed name="GoodEnough" src="/music/good_enough.mp3" loop="false" hidden="true" autostart="true">
+
+code to add icon to the page for both windows and apple devices:
+
+<link rel = "icon" type = "image/png" href = "media/IMG_1426.PNG">
+    <!-- For apple devices -->
+<link rel = "apple-touch-icon" type = "image/png" href = "media/IMG_1426.PNG"/>
