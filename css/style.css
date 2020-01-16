@@ -107,16 +107,19 @@ body {
      transform: translate(-50%,-50%);
      width: calc(1280px /16);
      height: 90px;
-     background: url(media/spk-trot.png);
-     animation: animate 7s steps(16) infinite;
+     background: url(spk-trot.png);
+     animation: animate 0.7s steps(16) infinite;
      text-align: center;
-     margin: 0;
+     margin-top: 1121px;
+     margin-right: -80px;
+     margin-bottom: -111px;
+     margin-left: -354px;
    }
    @keyframes animate {
      from {
-       background-position: 0;
+       background-position: 1280px;
      }
      to {
-       background-position: 1280px;
+       background-position: 0;
      }
    }
