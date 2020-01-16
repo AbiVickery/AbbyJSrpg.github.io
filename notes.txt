@@ -67,7 +67,13 @@ Scenario #3
     ])
 
 Scenario #4
-    .
+    Percy is flying through the streets of town when he notices some signs pointing towards a building. On the signs it says something about a big meeting/presentaion that is being held. That sounds interesting. Does Percy- {A. visit this big meeting/presentation to see whats going on? or B. Ignore the signs but still go knowing there would probably be food there?}
+    (if you chose A:[
+        .
+    ]
+    if you chose B:[
+        .
+    ])
 
 Scenario #5
     Percy is now in a building that has lots of people in dress clothes. Theres a stage with someone on it that looks nervous, like they are about to give a big speech. They have a microphone sitting in a microphone stand. He suddenly has an idea. Does he- {A. Go through with the idea? or B. Ignore the idea knowing he could be killed and continue exploring the building?}
