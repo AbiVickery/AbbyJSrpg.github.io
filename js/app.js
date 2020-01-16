@@ -94,8 +94,8 @@ function scenario3() {
 }
 // scenario3();
 function scenario4() {
-    alert('.');
-    ans4 = prompt('.');
+    alert('Percy is flying through the streets of town when he notices some signs pointing towards a bulding. On the signs it says something about a big meeting/presentation that is being held. That sounds interesting.');
+    ans4 = prompt('Does he- A. Visit this big meeting/presentation to see whats going on? or B. Ignore the signs but still go knowing there would probably be foo there?');
     // takes answers
     if (ans4 == [
         'a',
@@ -103,7 +103,7 @@ function scenario4() {
         '1'
     ]) {
         // display story for answer 1 of scenario 4
-        alert('.');
+        alert('Percy decides that this could be interesting. Maybe they are passing a law that lests flies access things like missile plans... nah, that\'s absurd. Still, couldn\'t hurt to check...');
         console.log('answer 1/2');
     } else if (ans4 == [
         'b',
@@ -111,7 +111,7 @@ function scenario4() {
         '2'
     ]) {
         // display story for answer 2 of scenario 4
-        alert('.');
+        alert('Percy starts thinking with his stomach and decides to go anyway, thinking that a big meeting/presentation like this is bound to have some food.');
         console.log('answer 2/2');
     }
 }
