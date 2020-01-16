@@ -144,8 +144,8 @@ function scenario5() {
 // scenario5();
 
 function scenario6() {
-    alert('.');
-    ans6 = prompt('.');
+    alert('Percy continues searching the building, looking for fun things to do when he stumbles upon a tray of cupcakes. Percy is feeling hungry and wants to eat one of them (or at least part of one), but there is a person guarding them.');
+    ans6 = prompt('Will he- A. Swoop in lkike a ravage bird and dive-bomb onto one of the cupcakes? or B. Wait for the person to go away?');
     // takes answers
     if (ans6 == [
         'a',
@@ -153,7 +153,7 @@ function scenario6() {
         '1'
     ]) {
         // display story for answer 1 of scenario 6
-        alert('.');
+        alert('Percy decided to do a sort of swoop in and dive-bomb move. While doing this, he had the tune "flight of the valkerie" playing in his head for dramatic effect. He dive-bombed and hit one of the cupcakes. The person must have noticed cause they suddenly ran over to a window, holding the cupcake Percy landed in and CHUCKED it out the window! Well, at least he has his own cupcake all to himself. He sits there and eats until he is comfortably full. Then takes off, exploring more of the town.');
         console.log('answer 1/2');
     } else if (ans6 == [
         'b',
@@ -161,7 +161,7 @@ function scenario6() {
         '2'
     ]) {
         // display story for answer 2 of scenario 6
-        alert('.');
+        alert('Percy decided to wait for the person to stop guarding the cupcakes and walk away. Yeah, they stayed in place for a really long time... Eventually Percy gave up and left. He would find something fun to do or something else to eat elsewhere...');
         console.log('answer 2/2');
     }
 }
