@@ -119,17 +119,17 @@ function scenario4() {
 
 function scenario5() {
     alert('Percy is now in a building that has lots of people in dress clothes. There\'s a stage with someone on it that looks nervous, like they are about to give a big speech. They have a microphone sitting in a microphone stand. Percy suddenly has an idea.');
-    ans6 = prompt('Does he- A. Go through with the idea? or B. Ignore the idea knowing he could be killed and continue exploring the building?');
+    ans5 = prompt('Does he- A. Go through with the idea? or B. Ignore the idea knowing he could be killed and continue exploring the building?');
     // takes answers
-    if (ans6 == [
+    if (ans5 == [
         'a',
         'A',
         '1'
     ]) {
         // display story for answer 1 of scenario 5
-        alert('Percy decides to go through with his idea. First he sneaks over to the mic, making sure its plugged in (which is is of course). Then he lands on the microphone and makes the most annoying buzzing noises ever as loud as he can. The whole room is in an uproar as they think the noise is caused by someone in the back messing with the sound systems. Percy just sits there luaghing while buzzing until someone sees him sitting on the microphone and then- SPLAT! He has been smushed! But on the plus side, the person that smushed him didn\'t know that Percy was radioactive so now they have radioation poisoning. Poor them. POOR PERCY! Oh well, that\'s life. THE END!');
+        alert('Percy decides to go through with his idea. First he sneaks over to the mic, making sure its plugged in (which is is of course). Then he lands on the microphone and makes the most annoying buzzing noises ever as loud as he can. The whole room is in an uproar as they think the noise is caused by someone in the back messing with the sound systems. Percy just sits there luaghing while buzzing until someone sees him sitting on the microphone and then- SPLAT! He has been smushed! But on the plus side, the person that smushed him didn\'t know that Percy was radioactive so now they have radioation poisoning. Poor them. POOR PERCY! Oh well, that\'s life. THE END!... Just kidding! Did you forget that you have skin as strong as steel? Nothing can just squish you!... unless it were made of some imaginary substance like vabranium... or is it adamantium... whatever, you play dead until the person flicks you off and into the unknown. You wait a few minutes before getting up and leaving that area of the building to continue exploring.');
         console.log('answer 1/2');
-    } else if (ans6 == [
+    } else if (ans5 == [
         'b',
         'B',
         '2'
@@ -143,9 +143,9 @@ function scenario5() {
 
 function scenario6() {
     alert('.');
-    ans7 = prompt('.');
+    ans6 = prompt('.');
     // takes answers
-    if (ans7 == [
+    if (ans6 == [
         'a',
         'A',
         '1'
@@ -153,7 +153,7 @@ function scenario6() {
         // display story for answer 1 of scenario 6
         alert('.');
         console.log('answer 1/2');
-    } else if (ans7 == [
+    } else if (ans6 == [
         'b',
         'B',
         '2'
@@ -166,9 +166,9 @@ function scenario6() {
 // scenario6();
 function scenario7() {
     alert('Percy is currently flying around the town and he sees a lab-like structure on a hill by itself. Curiousity sets in and he contemplates whether or not he should explore it or just keep flying around the town.');
-    ans8 = prompt('Does he- A. Go and explore the Lab? or B. Keep exploring the town?');
+    ans7 = prompt('Does he- A. Go and explore the Lab? or B. Keep exploring the town?');
     // takes answers
-    if (ans8 == [
+    if (ans7 == [
         'a',
         'A',
         '1'
@@ -176,7 +176,7 @@ function scenario7() {
         // display story for answer 1 of scenario 7
         alert('Percy decided to go and explore the lab, curious as to what might lie inside the halls of the sterile building.');
         console.log('answer 1/2');
-    } else if (ans8 == [
+    } else if (ans7 == [
         'b',
         'B',
         '2'
@@ -189,9 +189,9 @@ function scenario7() {
 // scenario7();
 function scenario8() {
     alert('Percy is flying around the laboratory and he spots a strange device on the table. Normally when he sees devices like this, he ignores them but this one is tiny, small enough for him to operate. He looks at what different controls it has and there are 2 buttons. One is blue with a circle shape. The other is yellow with a square shape. On the back of the device is a warning not to use or there will be severe consequences. Being the tiny jerk he is, Percy ignores the warning and decides to use the device just to be funny. Which button does he press?');
-    ans9 = prompt('Does he press- A. The blue circle button? or B. The yellow square button?');
+    ans8 = prompt('Does he press- A. The blue circle button? or B. The yellow square button?');
     // takes answers
-    if (ans9 == [
+    if (ans8 == [
         'a',
         'A',
         '1'
@@ -199,7 +199,7 @@ function scenario8() {
         // display story for answer 1 of scenario 8
         alert('At first, nothing happens. But then he hears a strange noise and suddenly there is a massive black hole forming in the room out of thin air. It swallows the entire earth and everything and everyone dies. THE END!');
         console.log('answer 1/2');
-    } else if (ans9 == [
+    } else if (ans8 == [
         'b',
         'B',
         '2'
@@ -212,9 +212,9 @@ function scenario8() {
 // scenario8();
 function scenario9() {
     alert('Percy is now in a different part of the lab, exploring and kind of wondering where all the lab people are cause he hasnt seen any lately. He stumbles into a large warehouse-like room that has a huge rocket ship. His curiousity compels him! He goes inside the rocket and sees a control panel with all sorts of buttons and switches.');
-    ans10 = prompt('Does he- A. Press all the buttons and switches until something happens? or B. Only press one random button?');
+    ans9 = prompt('Does he- A. Press all the buttons and switches until something happens? or B. Only press one random button?');
     // takes answers
-    if (ans10 = [
+    if (ans9 = [
         'a',
         'A',
         '1'
@@ -222,7 +222,7 @@ function scenario9() {
         // display story for answer 1 of scenario 9
         alert('Percy presses all the buttons and switches to see what happens and for fun because why not? Lots of lights start flashing and noises go off, including what sounds like the engines starting up. Suddenly the rocket blasts right through the roof of the lab and starts heading up into the sky, breaking through the atmosphere. Percy looks out the window and sees that he is headed towards the moon! What will he do now? Will he be the first radioactive fly on the moon!?');
         console.log('answer 1/2');
-    } else if (ans10 == [
+    } else if (ans9 == [
         'b',
         'B',
         '2'
