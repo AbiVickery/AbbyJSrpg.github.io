@@ -9,9 +9,9 @@ var character = {
 
 // prompt('Are you ready to begin?');
 
-alert('Page still in development!');
-prompt('What is the purpose of your visit?');
-alert('Alright, just curious. :)');
+// alert('Page still in development!');
+// prompt('What is the purpose of your visit?');
+// alert('Alright, just curious. :)');
 
 /* function scenario1() {
     // do stuff
@@ -39,7 +39,7 @@ function scenario1() {
         console.log('answer 2/2');
     }
 }
-// scenario1();
+scenario1();
 function scenario2() {
     alert('Percy continues flying around, laughing about his previous adventure with that human, the look on their face after what he had done. He wasn\'t really paying attention to where he was going and got sucked into a vaccum cleaner. Percy is now stuck inside the vaccum, trying to think of what to do next. He has 2 choices.');
     ans2 = prompt('He can- A. Wait until the vaccum gets emptied or turned off and then escape. or B. Fly into the mechanics and break the vaccum down.');
