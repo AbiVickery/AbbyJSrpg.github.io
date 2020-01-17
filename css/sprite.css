@@ -1,0 +1,21 @@
+.sprite3 {
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(2096 /4);
+    height: 1572;
+    background: url(IMG_1735.png);
+    animation: animate 3s steps(4) infinite;
+    text-align: center;
+    margin: 438px 117px;
+  }
+  @keyframes animate {
+    from {
+      background-positon: 0;
+    }
+    to {
+      background-position: 2096px;
+    }
+  }
