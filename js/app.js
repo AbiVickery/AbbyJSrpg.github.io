@@ -37,6 +37,8 @@ function scenario1() {
         // display story for answer 2 of scenario1
         alert('Percy decides to land on their nose while their eyes are closed. What he didn\'t know was that the human had a fly swatter in their hands, but that didn\'t stop him. They took the fly swatter and tried to get Percy, but he is to fast and quick on his feet, so instead of getting him, they end up hitting themselves in the face, leaving a red mark especially around the nose.');
         console.log('answer 2/2');
+    } else {
+        console.log('error');
     }
 }
 // scenario1();
@@ -61,6 +63,8 @@ function scenario2() {
         // display story for answer 2 of scenario 2
         alert('Percy goes to the inner mechanics of the vaccum and clogs it up with debris that was stuck to his legs. The whole vaccum starts making bad noises and it stops working. He takes this chance to excape the vaccum cleaner and fly away.');
         console.log('answer 2/2');
+    } else {
+        console.log('error');
     }
 }
 // scenario2();
@@ -93,6 +97,8 @@ function scenario3() {
         // display story for answer 3 of scenario 3
         alert('Percy decided to explore the convenience store. The outside of the store was boring and placid, but the inside was quite different. There were shelves with all different kinds of items on them. People were busy walking around looking for objects through the store. There was one person that seemed a bit strange, so he went over to them to see what they were doing. When Percy was at eye level with them and they noticed him, they screamed as loud as they could. Percy guessed they must have an irational fear of insects and made his way out of the store quickly. Well, back to exploring the rest of the town.');
         console.log('answer 3/3');
+    } else {
+        console.log('error');
     }
 }
 // scenario3();
@@ -116,6 +122,8 @@ function scenario4() {
         // display story for answer 2 of scenario 4
         alert('Percy starts thinking with his stomach and decides to go anyway, thinking that a big meeting/presentation like this is bound to have some food.');
         console.log('answer 2/2');
+    } else {
+        console.log('error');
     }
 }
 // scenario4();
@@ -140,6 +148,8 @@ function scenario5() {
         // display story for answer 2 of scenario 5
         alert('Percy continues on with his adventure, exploring the building.');
         console.log('answer 2/2');
+    } else {
+        console.log('error');
     }
 }
 // scenario5();
@@ -164,6 +174,8 @@ function scenario6() {
         // display story for answer 2 of scenario 6
         alert('Percy decided to wait for the person to stop guarding the cupcakes and walk away. Yeah, they stayed in place for a really long time... Eventually Percy gave up and left. He would find something fun to do or something else to eat elsewhere...');
         console.log('answer 2/2');
+    } else {
+        console.log('error');
     }
 }
 // scenario6();
@@ -187,6 +199,8 @@ function scenario7() {
         // display story for answer 2 of scenario 7
         alert('Percy starts to lose interest in the building on the hill and continues exploring the town, but later on he keeps thinking about the building on the hill, what secrets it might hold. Eventually, he decides to go back and take a look around the lab, curiosity outrulling reason.');
         console.log('answer 2/2');
+    } else {
+        console.log('error');
     }
 }
 // scenario7();
@@ -210,6 +224,8 @@ function scenario8() {
         // display story for answer 2 of scenario 8
         alert('PErcy pushes the yellow button and suddenly it starts raining inside the lab. Apparently he didn\'t notice he was sitting under a shower head that has been attached to the ceiling. The liquid is a sort of yellow color. Its lemonade! YUM! While he sits there enjoying the lemonade, he wonders who made this device and why. Percy is happy with the lemonade but now he goes off to explore the rest of the lab.');
         console.log('answer 2/2');
+    } else {
+        console.log('error');
     }
 }
 // scenario8();
@@ -233,6 +249,8 @@ function scenario9() {
         // display story for answer 2 of scenario 9
         alert('Percy decided to only press one button and choose a random one. Suddenly a countdown starts and he hears the sound of the engines of the rocket turning on. He knows what that means... THE ROCKET IS GETTING READY TO LAUNCH!!! Percy and the rocket soon start making their way up, pushing through the earth\'s atmosphere, heading for the moon! What will happen now?');
         console.log('answer 2/2');
+    } else {
+        console.log('error');
     }
 }
 // scenario9();
