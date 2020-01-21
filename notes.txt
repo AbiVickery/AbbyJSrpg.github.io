@@ -166,3 +166,53 @@ code to add icon to the page for both windows and apple devices:
 <link rel = "icon" type = "image/png" href = "media/IMG_1426.PNG">
     <!-- For apple devices -->
 <link rel = "apple-touch-icon" type = "image/png" href = "media/IMG_1426.PNG"/>
+
+Save function for if i decide to add a save function:
+
+function save() {
+    // make the object from things we want to save
+    var save = {
+        player1 = player,
+        story1 = story,
+        outcome1 = outcome
+    }
+    // save it to local storage
+    localStorage.setItem("save", JSON.stringify(save));
+}
+
+function load() {
+    // make a variable from a save file
+    var savegame = JSON.parse(localStorage.getItem("save"));
+    // check if it exists
+    if (savegame != null && savegame != undefined) {
+        // update the game player and story
+        story = savegame.story1;
+        outcome = savegame.outcome1
+    }
+}
+
+
+
+This function for saving the game was originally made by Robert Skalko on Free Code Camp:
+
+function save() {
+    // we make the object from things that we want to save
+    var save = {
+        player1 = player,
+        inventory1 = inventory,
+        boss1 = boss,
+    }
+    // we save it to local storage
+    localStorage.setItem("save", JSON.stringify(save));
+}
+
+function load() {
+    // Here we make a variable from a save file
+    var savegame = JSON.parse(localStorage.getItem("save"));
+    // check if it exists
+    if (savegame != null && savegame != undefined) {
+        // update our inventory and player object
+        inventory = savegame.inventory1;
+        player = savegame.player1;
+    }
+}
