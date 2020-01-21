@@ -39,7 +39,7 @@ function scenario1() {
         console.log('answer 2/2');
     }
 }
-scenario1();
+// scenario1();
 
 function scenario2() {
     alert('Percy continues flying around, laughing about his previous adventure with that human, the look on their face after what he had done. He wasn\'t really paying attention to where he was going and got sucked into a vaccum cleaner. Percy is now stuck inside the vaccum, trying to think of what to do next. He has 2 choices.');
