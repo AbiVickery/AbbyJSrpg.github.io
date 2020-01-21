@@ -9,7 +9,7 @@ var character = {
 
 // prompt('Are you ready to begin?');
 
-// alert('Page still in development!');
+alert('Page still in development!');
 // prompt('What is the purpose of your visit?');
 // alert('Alright, just curious. :)');
 
