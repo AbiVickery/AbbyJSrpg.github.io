@@ -9,6 +9,8 @@ function save() {
     localStorage.setItem("save", JSON.stringify(save));
 }
 
+save();
+
 function load() {
     // make a variable from a save file
     var savegame = JSON.parse(localStorage.getItem("save"));
@@ -19,3 +21,5 @@ function load() {
         outcome = savegame.outcome1;
     }
 }
+
+load();
