@@ -23,3 +23,11 @@ function load() {
 }
 
 // load();
+
+function myFunction() {
+    var person = prompt("Please enter your name", "insert_name_here");
+    if (person != null) {
+      document.getElementById("demo").innerHTML =
+      "Hello " + person + "! How are you today?";
+    }
+  }
