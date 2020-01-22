@@ -3,7 +3,8 @@ var character = {
     nic: 'Pim',
     otherInfo: [
         age = null,
-        gender = null
+        gender = null,
+        radioactive = true;
     ]
 }
 
