@@ -4,7 +4,7 @@ var character = {
     otherInfo: [
         age = null,
         gender = null,
-        radioactive = true;
+        radioactive = true
     ]
 }
 
