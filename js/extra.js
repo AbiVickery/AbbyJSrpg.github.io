@@ -9,7 +9,7 @@ function save() {
     localStorage.setItem("save", JSON.stringify(save));
 }
 
-save();
+// save();
 
 function load() {
     // make a variable from a save file
@@ -22,4 +22,4 @@ function load() {
     }
 }
 
-load();
+// load();
