@@ -57,3 +57,4 @@ function scenario3() {
     }
     document.getElementById("story3").innerHTML = answer;
 }
+// scenario3();
