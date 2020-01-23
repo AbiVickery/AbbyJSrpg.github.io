@@ -96,3 +96,22 @@ function scenario5() {
     document.getElementById("story5").innerHTML = answer;
 }
 // scenario5();
+
+function scenario6() {
+    var answer;
+    var story = prompt("Percy continues searching the building, looking for fun things to do when he stumbles upon a tray of cupcakes. Percy is feeling hungry and wants to eat of of them (or at least part of one), but there is a person guarding them. Will he- A. swoop in like a ravage bird and dive-bomb onto one of the cupcakes? or B. wait for the person to go away?");
+    switch(story) {
+        case "A", "a", "1":
+            answer = "Percy decided to do a sort of swoop in and dive-bomb move. While doing this, he had the tune \"Flight of the valkerie\" playing in his head for dramatic effect. He dive-bombed and hit one of the cupcakes. The person must have noticed cause they suddenly ran over to a window, holding the cupcake Percy landed in and CHUCKED it out the window! Well, at least he has his own cupcake all to himself. He sits there and eats until he is comforably full. Then takes off, exploring more of the town.";
+            console.log('answer 1/2');
+        break;
+        case "B", "b", "2":
+            answer = "Percy decided to wait for the person to stop guarding the cupcakes and walk away. Yeah, they stayed in place for a really long time... Eventually Percy gave up and left. He would find something fun to do or something else to eat elsewhere...";
+            console.log('answer 2/2');
+        break;
+        default:
+            answer = "Please answer the question using A, a, B, b, 1 or 2";
+    }
+    document.getElementById("story6").innerHTML = answer;
+}
+// scenario6();
