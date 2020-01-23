@@ -58,3 +58,22 @@ function scenario3() {
     document.getElementById("story3").innerHTML = answer;
 }
 // scenario3();
+
+function scenario4() {
+    var answer;
+    var story = prompt("Percy is flying through the streets of town when he notices some signs pointing towards a building. On the signs it says something about a big meeting/presentation that is being held. That sounds interesting. Does he- A. visit this big meeting/presentation to see whats going on? or B. Ignore the signs but still go knowing there would probably be food there?");
+    switch(story) {
+        case "A", "a", "1":
+            answer = "Percy decides that this could be interesting. Maybe they are passing a law that lets flies access things like missile plans... nah, that's absurd. Still, couldn't hurt to check...";
+            console.log('answer 1/2');
+        break;
+        case "B", "b", "2":
+            answer = "Percy starts thinking with his stomach and decides to go anyway, thinking that a big meeting/presentation like this is bound to have some food.";
+            console.log('answer 2/2');
+        break;
+        default:
+            answer = "Please answer the question using A, a, B, b, 1 or 2";
+    }
+    document.getElementById("story4").innerHTML = answer;
+}
+// scenario4();
