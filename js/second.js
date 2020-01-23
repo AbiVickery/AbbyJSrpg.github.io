@@ -77,3 +77,22 @@ function scenario4() {
     document.getElementById("story4").innerHTML = answer;
 }
 // scenario4();
+
+function scenario5() {
+    var answer;
+    var story = prompt("Percy is now in a building that has lots of people in dress clothes. There's a stage with someone on it that looks nervous, like they are about to give a big speech. They have a microphone sitting in a microphone stand. Percy suddenly has an idea. Does he- A. go through with the idea? or B. Ignore the idea knowing he could be killed and continue exploring the building?");
+    switch(story) {
+        case "A", "a", "1":
+            answer = "Percy decides to go through with his idea. First he sneaks over to the mic, making sure its plugged in (which it is of course). Then he lands on the microphone and makes the most annoying buzzing noises ever as loud as he can. The whole room is in an upfoar as they think the noise is caused by someone in the back messing with the sound systems. Percy just sits there laughing while buzzing until someone sees him sitting on the microphone and then- SPLAT! He has been smushed! But on the plus side, the person that smushed him didnt't know that Percy was radioactive so now they have radiation poisoning. Pore them. POOR PERCY! Oh well, that's life. THE END!... Just kidding Did you forget that he has skin as strong as steel? NOthing can just squish him!... unless it were made of some imaginary substance like vibranium... or is it adamantium... whatever. Percy plays dead until the person flicks him off and into the unknown. He waits a few minutes before getting up and leaving that area of the buliding to continue exploring.";
+            console.log('answer 1/2');
+        break;
+        case "B", "b", "2":
+            answer = "Percy continues on with his adventure, exploring the building.";
+            console.log('answer 2/2');
+        break;
+        default:
+            answer = "Please answer the question using A, a, B, b, 1 or 2";
+    }
+    document.getElementById("story5").innerHTML = answer;
+}
+// scenario5();
