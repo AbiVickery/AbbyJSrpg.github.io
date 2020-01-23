@@ -134,3 +134,22 @@ function scenario7() {
     document.getElementById("story7").innerHTML = answer;
 }
 // scenario7();
+
+function scenario8() {
+    var answer;
+    var story = prompt("Percy is flying around the laboratory and he spots a strange device on the table. Normally when he sees devices like this, he ignores them but this one is tiny, small enough for him to operate. He looks at what different controls it has and there are 2 buttons. One is blue with a circle shape. The other is yellow with a square shape. On the back of the device is a warning not to use or there will be severe consequences. Being the tiny jerk he is, Percy ignores the warning and decides to use the device just to be funny. Which button does he press? Does he press- A. the blue circle button? or B. the yellow square button?");
+    switch(story) {
+        case "A", "a", "1":
+            answer = "At first, nothing happens. But then he hears a strange noise and suddenly there is a massive black hole forming in the room out of thin air. It swallows the entire earth and everything and everyone dies. THE END!... kidding, it was a projection on the wall. Nothing happened.";
+            console.log('answer 1/2');
+        break;
+        case "B", "b", "2":
+            answer = "Percy pushes the yellow button and suddenly it starts raining inside the lab. Apparently he didn't notice he was sitting under a shower head that has been attached to the cieling. The liquid is a sort of yellow color. Its lemonade! YUM! While he sits there enjoying the lemonade, he wonders who made this device and why. Percy is happy with the lemonade but now he goes off to explore the rest of the lab.";
+            console.log('answer 2/2');
+        break;
+        default:
+            answer = "Please answer the question using A, a, B, b, 1 or 2";
+    }
+    document.getElementById("story8").innerHTML = answer;
+}
+// scenario8();
