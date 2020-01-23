@@ -172,3 +172,10 @@ function scenario9() {
     document.getElementById("story9").innerHTML = answer;
 }
 // scenario9();
+
+// function bio() {
+//     var shortie;
+//     var bioio = document.h3("Percy Mercy, (called Pim for short), was an ordinary house fly that would fly around getting all up in people's faces. One day while flying around, Pim accidently landed in something radioactive and became radioactive himself. He now can fly slightly faster than before, has skin as strong as steel, I mean he's basically a living bullet. Now, with his new abilities, he flies around being the tiniest jerk alive (at the moment).");
+//     document.getElementById("bio").innerHTML = shortie;
+// }
+// bio();
