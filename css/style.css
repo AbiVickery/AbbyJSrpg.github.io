@@ -134,3 +134,19 @@ body {
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
    }
+
+   #story1,
+   #story2,
+   #story3,
+   #story4,
+   #story5,
+   #story6,
+   #story7,
+   #story8,
+   #story9 {
+     /* text-align: center;
+     background: -webkit-repeating-linear-gradient(#4ce980, #e639b2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    font-size: xx-large;
+   }
