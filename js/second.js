@@ -115,3 +115,22 @@ function scenario6() {
     document.getElementById("story6").innerHTML = answer;
 }
 // scenario6();
+
+function scenario7() {
+    var answer;
+    var story = prompt("Percy is currently flying around the town and he sees a lab-like structure on a hill by itself. Curiosity sets in and he contemplates whether or not he should explore it or just keep flying around the town. Does he- A. go and explore the lab? or B. keep flying around the town?");
+    switch(story) {
+        case "A", "a","1":
+            answer = "Percy decided to go and explore the lab, curious as to what might lie inside the halls of the sterile building.";
+            console.log('answer 1/2');
+        break;
+        case "B", "b", "2":
+            answer = "Percy starts to lose interest in the building on the hill and continues flying around town, but later on he keeps thinking about the building on the hill, what secrets it might hold. Eventually, he decides to go back and take a look around the lab, curiosity outrulling reason.";
+            console.log('answer 2/2');
+        break;
+        default:
+            answer = "Please answer the question using A, a, B, b, 1 or 2";
+    }
+    document.getElementById("story7").innerHTML = answer;
+}
+// scenario7();
