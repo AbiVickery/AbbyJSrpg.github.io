@@ -38,7 +38,7 @@ function scenario2() {
 
 function scenario3() {
     var answer;
-    var story = prompt("Percy decides to leave the house and go out to explore the town. This town is not as big as most but it is quite decent. He passes by a gas station, a library and a convenience store. Percy thinks about exploring one of those places but which one? Does he- A. Explore teh gas station? B. Explore the library? or C. Explore the convenience store?");
+    var story = prompt("Percy decides to leave the house and go out to explore the town. This town is not as big as most but it is quite decent. He passes by a gas station, a library and a convenience store. Percy thinks about exploring one of those places but which one? Does he- A. Explore the gas station? B. Explore the library? or C. Explore the convenience store?");
     switch(story) {
         case "A":
             answer = "Percy decided to explore the gas station. There were only 2 gas pumps so it wasn't a very big station. They looked old as well as a bit unused, as if this gas station didn't get very many visitors. As for the inside, it was hardly stocked and he couldn't see anyone else. He honestly started to wonder if this place was even open... Eventually he was bored and decided to leave and explore the rest of town.";
@@ -140,7 +140,7 @@ function scenario8() {
     var story = prompt("Percy is flying around the laboratory and he spots a strange device on the table. Normally when he sees devices like this, he ignores them but this one is tiny, small enough for him to operate. He looks at what different controls it has and there are 2 buttons. One is blue with a circle shape. The other is yellow with a square shape. On the back of the device is a warning not to use or there will be severe consequences. Being the tiny jerk he is, Percy ignores the warning and decides to use the device just to be funny. Which button does he press? Does he press- A. the blue circle button? or B. the yellow square button?");
     switch(story) {
         case "A":
-            answer = "At first, nothing happens. But then he hears a strange noise and suddenly there is a massive black hole forming in the room out of thin air. It swallows the entire earth and everything and everyone dies. THE END!... kidding, it was a projection on the wall. Nothing happened.";
+            answer = "At first, nothing happens. But then he hears a strange noise and suddenly there is a massive black hole forming in the room out of thin air. It swallows the entire earth and everything and everyone dies. THE END!... kidding, it was a projection on the wall. Nothing happened. Although later there were reports on the television that a tsunami washed over greenland...";
             console.log('answer 1/2');
         break;
         case "B":
@@ -159,7 +159,7 @@ function scenario9() {
     var story = prompt("Percy is now in a different part of the lab, exploring and kind of wondering where all the lab people are cause he hasn't seen any lately. He stumbles into a large warehouse-like room that has a huge rocket ship. His curiosity compels him! He goes inside the rocket and sees a control panel with all sorts of buttons and switches. Does he- A. press all the buttons and switches until something happens? or B. Only press one random button?");
     switch(story) {
         case "A":
-            answer = "Percy presses all the buttons and switches to see what happens and for fun because why not? Lots of lights start flashing and noises go off, including what sounds like the engines starting up. Suddenly the rocket blasts right through the roof of the lab and starts heading up into the sky, breaking through the atmosphere. Percy looks out teh window and sees that he is headed towards the moon! What will he do now? Will he be the first radioactive fly on the moon!?";
+            answer = "Percy presses all the buttons and switches to see what happens and for fun because why not? Lots of lights start flashing and noises go off, including what sounds like the engines starting up. Suddenly the rocket blasts right through the roof of the lab and starts heading up into the sky, breaking through the atmosphere. Percy looks out the window and sees that he is headed towards the moon! What will he do now? Will he be the first radioactive fly on the moon!?";
             console.log('answer 1/2');
         break;
         case "B":
