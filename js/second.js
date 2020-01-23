@@ -153,3 +153,22 @@ function scenario8() {
     document.getElementById("story8").innerHTML = answer;
 }
 // scenario8();
+
+function scenario9() {
+    var answer;
+    var story = prompt("Percy is now in a different part of the lab, exploring and kind of wondering where all the lab people are cause he hasn't seen any lately. He stumbles into a large warehouse-like room that has a huge rocket ship. His curiosity compels him! He goes inside the rocket and sees a control panel with all sorts of buttons and switches. Does he- A. press all the buttons and switches until something happens? or B. Only press one random button?");
+    switch(story) {
+        case "A", "a", "1":
+            answer = "Percy presses all the buttons and switches to see what happens and for fun because why not? Lots of lights start flashing and noises go off, including what sounds like the engines starting up. Suddenly the rocket blasts right through the roof of the lab and starts heading up into the sky, breaking through the atmosphere. Percy looks out teh window and sees that he is headed towards the moon! What will he do now? Will he be the first radioactive fly on the moon!?";
+            console.log('answer 1/2');
+        break;
+        case "B", "b", "2":
+            answer = "Percy decided to only press one button and choose a random one. Suddenly a countdown starts and he hears the sound of the engines of the rocket turning on. He knows what this means... THE ROCKET IS GETTING READY TO LAUNCH!!! Percy and the rocket soon start making their way up, pushing through the earth's atmosphere, heading for the moon! What will happen now?";
+            console.log('answer 2/2');
+        break;
+        default:
+            answer = "Please answer the question using A, a, B, b, 1 or 2";
+    }
+    document.getElementById("story9").innerHTML = answer;
+}
+// scenario9();
