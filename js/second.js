@@ -15,6 +15,7 @@ function scenario1() {
     }
     document.getElementById("story1").innerHTML = answer;
 }
+// scenario1();
 
 function scenario2() {
     var answer;
@@ -32,4 +33,27 @@ function scenario2() {
             answer = "Please answer the question using A, a, B, b, 1 or 2";
     }
     document.getElementById("story2").innerHTML = answer;
+}
+// scenario2();
+
+function scenario3() {
+    var answer;
+    var story = prompt("Percy decides to leave the house and go out to explore the town. This town is not as big as most but it is quite decent. He passes by a gas station, a library and a convenience store. Percy thinks about exploring one of those places but which one? Does he- A. Explore teh gas station? B. Explore the library? or C. Explore the convenience store?");
+    switch(story) {
+        case "A", "a", "1":
+            answer = "Percy decided to explore the gas station. There were only 2 gas pumps so it wasn't a very big station. They looked old as well as a bit unused, as if this gas station didn't get very many visitors. As for the inside, it was hardly stocked and he couldn't see anyone else. He honestly started to wonder if this place was even open... Eventually he was bored and decided to leave and explore the rest of town.";
+            console.log('answer 1/3');
+        break;
+        case "B", "b", "2":
+            answer = "Percy decided to explore the library. The inside was not to bad. It was decorated to look like a nice library, except that it was really old. So old that some of the paint was starting to peel and chip. There were shelves with books covered in dust like they haven't seen the sun in forever. Speaking of sun, there was a broken window on the ceiling that let in sun light, making the whole place seem a bit magical. But there wern't anypeople in the library... Eventually he got bored after flying around the empty library and decided to go back out and explore the rest of the town.";
+            console.log('answer 2/3');
+        break;
+        case "C", "c", "3":
+            answer = "Percy decided to explore the convenience store. The outside of the store was boring and placid but the inside was quite different. There were shelves with all different kinds of items on them. People were busy walking around looking for objects through the store. There was one person that seemed a bit strange, so he went over to them to see what they were doing. When Percy was at eye level with them and they noticed him, they screamed as loud as they could. Percy guessed they must have an irrational fewar of insects and made his way out of the store quickly. Well, back to exploring the rest of the town.";
+            console.log('answer 3/3');
+        break;
+        default:
+            answer = "Please answer the question using A, a, B, b, C, c, 1, 2 or 3";
+    }
+    document.getElementById("story3").innerHTML = answer;
 }
