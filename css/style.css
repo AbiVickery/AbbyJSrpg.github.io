@@ -166,8 +166,8 @@ body {
    .c8,
    .c9 {
     color: rgb(77, 216, 181);
-    background-color: #c04848;
+    background: -webkit-repeating-linear-gradient(#2a6b40, #752144);
     width: 5em;
     height: 5em;
-    border-radius: 25%;
+    border-radius: 35%;
    }
