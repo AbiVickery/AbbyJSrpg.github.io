@@ -216,3 +216,9 @@ function load() {
         player = savegame.player1;
     }
 }
+
+CSS For gradient text:
+
+    background: -webkit-repeating-linear-gradient(#4ce980, #e639b2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
