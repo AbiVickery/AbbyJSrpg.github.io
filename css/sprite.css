@@ -19,3 +19,25 @@
       background-position: 2096px;
     }
   } */
+
+  #perSprite {
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(450px /5);
+    height: 68px;
+    background: url(PercyUpDn.png);
+    animation: animate 200ms steps(5) infinite;
+    text-align: center;
+    margin: -199px -45px
+  }
+  @keyframes animate {
+    from {
+      background-position: 450px;
+    }
+    to {
+      background-position: 0;
+    }
+  }
