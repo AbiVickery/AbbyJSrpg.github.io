@@ -1,7 +1,8 @@
 body {
   font-family: 'Lakki Reddy', cursive;
     background: rgb(175,238,238);
-    background: linear-gradient(0deg, rgba(175,238,238,1) 0%, rgba(161,154,237,1) 50%, rgba(175,238,238,1) 100%);
+    background: rgb(185,247,247);
+    background: linear-gradient(143deg, rgba(185,247,247,1) 0%, rgba(171,164,247,1) 27%, rgba(158,214,214,1) 47%, rgba(138,133,200,1) 71%, rgba(155,245,245,1) 100%);
 }
 
 /* #sprite1 {
