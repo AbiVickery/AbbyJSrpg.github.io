@@ -1,5 +1,5 @@
 body {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Lakki Reddy', cursive;
     background: rgb(175,238,238);
     background: linear-gradient(0deg, rgba(175,238,238,1) 0%, rgba(161,154,237,1) 50%, rgba(175,238,238,1) 100%);
 }
@@ -148,7 +148,7 @@ body {
      background: -webkit-repeating-linear-gradient(#4ce980, #e639b2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nanum Pen Script', cursive;
     font-size: xx-large;
     /* color: #aa3333; */
     background: -webkit-repeating-linear-gradient(#317c4a, #74265c);
