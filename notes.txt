@@ -222,3 +222,7 @@ CSS For gradient text:
     background: -webkit-repeating-linear-gradient(#4ce980, #e639b2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+Added a typewritter effect to the character bio on the page.
+It was supposed to be a starwars style effect but the code for that and this code is incompatible; it would require rewriting this whole thing.
+So I found and did a much easier effect...
