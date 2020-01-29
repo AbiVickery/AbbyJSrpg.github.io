@@ -18,7 +18,7 @@ var character = {
     // do stuff
 } */
 
-function scenario1() {
+function scene1() {
     alert('Percy flies around a home and a human is in the proccess of yawning. Does Percy-');
     ans1 = prompt('A. Fly into the human\'s mouth, knowing he has a 50/50 chance of survival? or B. Land on the human\'s nose while their eyes are closed?');
     // takes answers
@@ -42,9 +42,9 @@ function scenario1() {
         console.log('error');
     }
 }
-// scenario1();
+// scene1();
 
-function scenario2() {
+function scene2() {
     alert('Percy continues flying around, laughing about his previous adventure with that human, the look on their face after what he had done. He wasn\'t really paying attention to where he was going and got sucked into a vaccum cleaner. Percy is now stuck inside the vaccum, trying to think of what to do next. He has 2 choices.');
     ans2 = prompt('He can- A. Wait until the vaccum gets emptied or turned off and then escape. or B. Fly into the mechanics and break the vaccum down.');
     // takes answers
@@ -68,9 +68,9 @@ function scenario2() {
         console.log('error');
     }
 }
-// scenario2();
+// scene2();
 
-function scenario3() {
+function scene3() {
     alert('Percy decides to leave the house and go out to explore the town. This town is not as big as most but it is quite decent. He passes by a gas station, a library and a convenience store. Percy thinks about exploring one of those places but which one?');
     ans3 = prompt('Does he- A. Explore the Gas Station? B. Explore the Library? or C. Explore the Convenience Store?');
     // takes answers
@@ -102,8 +102,9 @@ function scenario3() {
         console.log('error');
     }
 }
-// scenario3();
-function scenario4() {
+// scene3();
+
+function scene4() {
     alert('Percy is flying through the streets of town when he notices some signs pointing towards a bulding. On the signs it says something about a big meeting/presentation that is being held. That sounds interesting.');
     ans4 = prompt('Does he- A. Visit this big meeting/presentation to see whats going on? or B. Ignore the signs but still go knowing there would probably be foo there?');
     // takes answers
@@ -127,9 +128,9 @@ function scenario4() {
         console.log('error');
     }
 }
-// scenario4();
+// scene4();
 
-function scenario5() {
+function scene5() {
     alert('Percy is now in a building that has lots of people in dress clothes. There\'s a stage with someone on it that looks nervous, like they are about to give a big speech. They have a microphone sitting in a microphone stand. Percy suddenly has an idea.');
     ans5 = prompt('Does he- A. Go through with the idea? or B. Ignore the idea knowing he could be killed and continue exploring the building?');
     // takes answers
@@ -153,9 +154,9 @@ function scenario5() {
         console.log('error');
     }
 }
-// scenario5();
+// scene5();
 
-function scenario6() {
+function scene6() {
     alert('Percy continues searching the building, looking for fun things to do when he stumbles upon a tray of cupcakes. Percy is feeling hungry and wants to eat one of them (or at least part of one), but there is a person guarding them.');
     ans6 = prompt('Will he- A. Swoop in lkike a ravage bird and dive-bomb onto one of the cupcakes? or B. Wait for the person to go away?');
     // takes answers
@@ -179,8 +180,9 @@ function scenario6() {
         console.log('error');
     }
 }
-// scenario6();
-function scenario7() {
+// scene6();
+
+function scene7() {
     alert('Percy is currently flying around the town and he sees a lab-like structure on a hill by itself. Curiousity sets in and he contemplates whether or not he should explore it or just keep flying around the town.');
     ans7 = prompt('Does he- A. Go and explore the Lab? or B. Keep exploring the town?');
     // takes answers
@@ -204,8 +206,9 @@ function scenario7() {
         console.log('error');
     }
 }
-// scenario7();
-function scenario8() {
+// scene7();
+
+function scene8() {
     alert('Percy is flying around the laboratory and he spots a strange device on the table. Normally when he sees devices like this, he ignores them but this one is tiny, small enough for him to operate. He looks at what different controls it has and there are 2 buttons. One is blue with a circle shape. The other is yellow with a square shape. On the back of the device is a warning not to use or there will be severe consequences. Being the tiny jerk he is, Percy ignores the warning and decides to use the device just to be funny. Which button does he press?');
     ans8 = prompt('Does he press- A. The blue circle button? or B. The yellow square button?');
     // takes answers
@@ -229,8 +232,9 @@ function scenario8() {
         console.log('error');
     }
 }
-// scenario8();
-function scenario9() {
+// scene8();
+
+function scene9() {
     alert('Percy is now in a different part of the lab, exploring and kind of wondering where all the lab people are cause he hasnt seen any lately. He stumbles into a large warehouse-like room that has a huge rocket ship. His curiousity compels him! He goes inside the rocket and sees a control panel with all sorts of buttons and switches.');
     ans9 = prompt('Does he- A. Press all the buttons and switches until something happens? or B. Only press one random button?');
     // takes answers
@@ -254,7 +258,7 @@ function scenario9() {
         console.log('error');
     }
 }
-// scenario9();
+// scene9();
 
 // function myFunction() {
 //     document.getElementById("demo").innerHTML = "test1 of js to text";
