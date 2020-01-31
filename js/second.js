@@ -11,7 +11,7 @@ function scenario1() {
             console.log('answer 2/2');
         break;
         default:
-            answer = "Either answer with A or B. please try again.";
+            answer = "Either answer with 'A' or 'B'. Please try again.";
     }
     document.getElementById("story1").innerHTML = answer;
 }
@@ -30,7 +30,7 @@ function scenario2() {
             console.log('answer 2/2');
         break;
         default:
-            answer = "Either answer with A or B. please try again.";
+            answer = "Either answer with 'A' or 'B'. Please try again.";
     }
     document.getElementById("story2").innerHTML = answer;
 }
@@ -53,7 +53,7 @@ function scenario3() {
             console.log('answer 3/3');
         break;
         default:
-            answer = "Either answer with A or B. please try again.";
+            answer = "Either answer with 'A', 'B' or 'C'. Please try again.";
     }
     document.getElementById("story3").innerHTML = answer;
 }
@@ -72,7 +72,7 @@ function scenario4() {
             console.log('answer 2/2');
         break;
         default:
-            answer = "Either answer with A or B. please try again.";
+            answer = "Either answer with 'A' or 'B'. Please try again.";
     }
     document.getElementById("story4").innerHTML = answer;
 }
@@ -91,7 +91,7 @@ function scenario5() {
             console.log('answer 2/2');
         break;
         default:
-            answer = "Either answer with A or B. please try again.";
+            answer = "Either answer with 'A' or 'B'. Please try again.";
     }
     document.getElementById("story5").innerHTML = answer;
 }
@@ -110,7 +110,7 @@ function scenario6() {
             console.log('answer 2/2');
         break;
         default:
-            answer = "Either answer with A or B. please try again.";
+            answer = "Either answer with 'A' or 'B'. Please try again.";
     }
     document.getElementById("story6").innerHTML = answer;
 }
@@ -129,7 +129,7 @@ function scenario7() {
             console.log('answer 2/2');
         break;
         default:
-            answer = "Either answer with A or B. please try again.";
+            answer = "Either answer with 'A' or 'B'. Please try again.";
     }
     document.getElementById("story7").innerHTML = answer;
 }
@@ -148,7 +148,7 @@ function scenario8() {
             console.log('answer 2/2');
         break;
         default:
-            answer = "Either answer with A or B. please try again.";
+            answer = "Either answer with 'A' or 'B'. Please try again.";
     }
     document.getElementById("story8").innerHTML = answer;
 }
@@ -167,7 +167,7 @@ function scenario9() {
             console.log('answer 2/2');
         break;
         default:
-            answer = "Either answer with A or B. please try again.";
+            answer = "Either answer with 'A' or 'B'. Please try again.";
     }
     document.getElementById("story9").innerHTML = answer;
 }
