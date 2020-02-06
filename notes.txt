@@ -226,3 +226,6 @@ CSS For gradient text:
 Added a typewritter effect to the character bio on the page.
 It was supposed to be a starwars style effect but the code for that and this code is incompatible; it would require rewriting this whole thing.
 So I found and did a much easier effect...
+
+note to self:
+    draw out short images of Percy in the scenarioes.
